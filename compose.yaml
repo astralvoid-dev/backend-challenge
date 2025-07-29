@@ -1,0 +1,6 @@
+﻿services:
+  backend-challenge:
+    image: backend-challenge
+    build:
+      context: .
+      dockerfile: backend-challenge/Dockerfile
