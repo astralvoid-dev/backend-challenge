@@ -54,6 +54,7 @@ It features a **REST API** for **managing file upload sessions** for users and c
 but alternatively, they could both start as empty lists and then be filled
 by sending POST requests to the API.
 - All values exist **only during the application's lifecycle.**
+  - I tried to implement a mock database using `Microsoft.EntityFrameworkCore`, but I did not have enough time.
 - The only supported file type is **PDF**.
   - Other file types will send an **error response**
 - A message is only returned _if a user tries to upload a file._
