@@ -4,3 +4,5 @@
     build:
       context: .
       dockerfile: backend-challenge/Dockerfile
+    ports:
+      - "8080:8080"  
