@@ -33,7 +33,7 @@ User[] users = Enumerable.Range(0, 4)
     .Select(index => new User(index,
         Enumerable.Range(0, 2)
             .Select(clientIndex => clients[clientIndex])
-            .ToArray(), []))
+            .ToArray()))
     .ToArray();
 
 // File upload sessions
